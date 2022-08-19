@@ -65,7 +65,7 @@ https://fontawesome.com/icons?d=gallery */
     
     {
       skillName: "Enumeration tools",
-      fontAwesomeClassname: "fa fa-key"
+      fontAwesomeClassname: "fa fa-list"
     },
     {
       skillName: "Privilege Escalation",
@@ -84,12 +84,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa fa-code"
     },
     {
+      skillName: "Cryptography",
+      fontAwesomeClassname: "fa fa-key"
+    },
+    {
       skillName: "Report writing",
       fontAwesomeClassname: "fa fa-file"
     },
     {
       skillName: "Linux",
-      fontAwesomeClassname: "fa fa-linux"
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "html-5",
@@ -120,11 +124,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -164,16 +168,40 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Information Security Management", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Penetration Testing",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Fullstack",
+      progressPercentage: "50%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
+// Your top 3 proficient Language experience
+const languageStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "English", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "French",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Dutch",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Hungarian",
+      progressPercentage: "15%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -390,6 +418,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  languageStack,
   workExperiences,
   openSource,
   bigProjects,
