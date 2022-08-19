@@ -127,6 +127,19 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.hackthebox ? (
+        <a
+          href={socialMediaLinks.hackthebox}
+          className="icon-button hackthebox"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-shield-alt"></i>
+          <span></span>
+        </a>
+      ) : null}
+
     </div>
   );
 }

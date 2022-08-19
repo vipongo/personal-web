@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Victor Schmit",
+  title: "Hi all, I'm Victor Schmit",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Penetration Testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1t-iLlMfN1vc1HRZtX2_DE7PNV2GhhIk8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/vipongo",
+  linkedin: "https://www.linkedin.com/in/victor-schmit-53a2461b7/",
+  gmail: "victor.schmit.vs@gmail.com",
+  hackthebox: "https://app.hackthebox.com/profile/612703",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,21 +46,51 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Cyber Security passionate always wanting to learn more!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Penetration testing assessment"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Identifying, managing, and mitigating security risks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Coordination of security related activities, creation and maintaining documentation and guidelines about security and help the team create a “culture” for security.",
+    ),
+    emoji("⚡ Some fullstack during my free time")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    
+    {
+      skillName: "Enumeration tools",
+      fontAwesomeClassname: "fa fa-key"
+    },
+    {
+      skillName: "Privilege Escalation",
+      fontAwesomeClassname: "fa fa-angle-double-up"
+    },
+    {
+      skillName: "Information Disclosure",
+      fontAwesomeClassname: "fa fa-exclamation-circle"
+    },
+    {
+      skillName: "Exploit Finding",
+      fontAwesomeClassname: "fa fa-user-secret"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fa fa-code"
+    },
+    {
+      skillName: "Report writing",
+      fontAwesomeClassname: "fa fa-file"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fa fa-linux"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -71,10 +98,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -89,24 +112,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Databases",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -359,16 +370,16 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Interested for collaboration? I will always gladly reply to your messages",
+  number: "+32 494 740164",
+  email_address: "victor.schmit.vs@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
