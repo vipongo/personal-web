@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -33,10 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/vipongo",
+
   linkedin: "https://www.linkedin.com/in/victor-schmit-53a2461b7/",
   gmail: "victor.schmit.vs@gmail.com",
   hackthebox: "https://app.hackthebox.com/profile/612703",
+  github: "https://github.com/vipongo",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -141,23 +142,56 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Eötvös Loránd University",
+      logo: require("./assets/images/eltelogo.png"),
+      subHeader: "Master in Cyber Security",
+      duration: "September 2021 - May 2022",
+      desc: "Finished with mention 'Excellence'. I had 30 ECTS of business related courses.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Information Security Management",
+        "Penetration Testing",
+        "Cryptography",
+        "Privacy",
+        "Network and System Security",
+        "Inovation and Entrepreneurship"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Turun Yliopisto University",
+      logo: require("./assets/images/turku.png"),
+      subHeader: "Master in Cyber Security",
+      duration: "September 2021 - May 2022",
+      desc: "Finished with mention 'Excellence'. I had 30 ECTS of business related courses.",
+      descBullets: [
+        "Security Engineering",
+        "Firewall and IPS",
+        "Protocol Processing and Security"
+      ]
+    },
+    {
+      schoolName: "Universidad Politécnica de Madrid",
+      logo: require("./assets/images/madrid.png"),
+      subHeader: "Summer School",
+      duration: "July 2021",
+      desc: "Disrupting Finance with Digital Technologies",
+      descBullets: [
+        "Business Planning",
+        "Impact of ICT Technologies and Innovations",
+        "Market trends",
+        "Business life cycles goals"
+      ]
+    },
+    {
+      schoolName: "UNamur University",
+      logo: require("./assets/images/unamurlogo.png"),
+      subHeader: "Bachelor in Computer Science",
+      duration: "September 2016 - August 2020",
+      desc: "With Business electives.",
+      descBullets: [
+        "Introduction to programming languages such as Python, C, Javascript",
+        "Cyber Security classes",
+        "Business related electives"
+      ]
     }
   ]
 };
@@ -200,6 +234,10 @@ const languageStack = {
       progressPercentage: "40%"
     },
     {
+      Stack: "Russian",
+      progressPercentage: "15%"
+    },
+    {
       Stack: "Hungarian",
       progressPercentage: "15%"
     }
@@ -213,29 +251,48 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Information Security Manager",
+      company: "Nokia",
+      companylogo: require("./assets/images/nokia.png"),
+      date: "December 2021 – Present",
+      desc: "Information Security Manager in I&V organization tool development team.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Identifying, managing, and mitigating security risks.",
+        "Coordination of security related activities.",
+        "Creation and maintaining documentation and guidelines about security.",
+        "Help the team create a 'culture' for security."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "CSLabs Namur",
+      companylogo: require("./assets/images/cslabs.png"),
+      date: "June 2019 – August 2020",
+      desc: "Developing Google Scholar API."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Student Ambassador",
+      company: "EIT Digital Master School",
+      companylogo: require("./assets/images/eit.png"),
+      date: "November 2021 – Present",
+      descBullets: [
+        "Creation, organization and participation of events to promote EIT Digital Master School to worldwide students.",
+        "Direct contact with applicants."
+    ]
+    },
+    {
+      role: "Collaborator",
+      company: "Eötvös Loránd University",
+      companylogo: require("./assets/images/eltelogo.png"),
+      date: "December 2020 – January 2021",
+      desc: "Creating in collaboration a new EIT Digital class called Innosocial."
+    },
+    {
+      role: "Computer Security Animator",
+      company: "Saint-Louis After School",
+      companylogo: require("./assets/images/louis.png"),
+      date: "September 2019 – June 2020",
+      desc: "Raising awareness about computer security, using the internet, using social networks to teenagers from 11 to 13 years old."
     }
   ]
 };
@@ -245,37 +302,31 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Theses",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/double.png"),
+      projectName: "Master's thesis 'A Rapid Approach To Web Application Security'",
+      projectDesc: "Creation of a Master's thesis with Nokia to research the integration of security inside a completely unsecured web application.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Read the thesis work",
+          url: "https://www.utupub.fi/handle/10024/154332"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/unamurlogo.png"),
+      projectName: "Bachelor's thesis 'CPDI'",
+      projectDesc: "Creation of a backend using Django to help developers find the best technologies for their project",
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -291,47 +342,38 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Practical Ethical Hacking (PEH)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Practical side of ethical hacking. Providing a deep understanding of external and internal network penetration testing, wireless penetration testing, and web application penetration testing. ",
+      image: require("./assets/images/tcm.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/15_NUa2mLRNqhAPOHC7_WxnpncCHg2ahv/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Hack The Box Academy",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Cyber security training with hands-on exercises and labs made by Hack The Box.",
+      image: require("./assets/images/htb.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Transcript",
+          url: "https://drive.google.com/file/d/1L76Rl5v81QowfCjQbB1rSquXG7vbNbtC/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Advent of Cyber",
+      subtitle: "Cyber Security challenges",
+      image: require("./assets/images/tryhackme.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1_DaZTHJr_QQC8SLbkr0SyLBeKZZyP_Wl/view?usp=sharing"
         }
       ]
     }
