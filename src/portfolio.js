@@ -268,7 +268,7 @@ const workExperiences = {
       company: "CSLabs Namur",
       companylogo: require("./assets/images/cslabs.png"),
       date: "June 2019 – August 2020",
-      desc: "Developing Google Scholar API."
+      desc: "Developing a Google Scholar API."
     },
     {
       role: "Student Ambassador",
@@ -440,8 +440,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Interested for collaboration? I will always gladly reply to your messages",
-  number: "+32 494 740164",
+    "Interested for collaboration? I will always gladly reply to your messages. You can write me on LinkedIn or directly to my email address.",
   email_address: "victor.schmit.vs@gmail.com"
 };
 
