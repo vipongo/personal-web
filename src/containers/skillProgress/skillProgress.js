@@ -41,7 +41,7 @@ export default function StackProgress() {
         </div>
 
         <div className="skills-container">
-        <div className="skills-bar">
+          <div className="skills-bar">
             <h1 className="skills-heading">Languages</h1>
             {languageStack.experience.map((exp, i) => {
               const progressStyle = {
@@ -70,10 +70,7 @@ export default function StackProgress() {
           </div>
         </div>
       </Fade>
-
-      
     );
   }
   return null;
 }
-

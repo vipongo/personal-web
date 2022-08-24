@@ -33,7 +33,6 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-
   linkedin: "https://www.linkedin.com/in/victor-schmit-53a2461b7/",
   gmail: "victor.schmit.vs@gmail.com",
   hackthebox: "https://app.hackthebox.com/profile/612703",
@@ -49,12 +48,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Cyber Security passionate always wanting to learn more!",
   skills: [
-    emoji(
-      "⚡ Penetration testing assessment"
-    ),
+    emoji("⚡ Penetration testing assessment"),
     emoji("⚡ Identifying, managing, and mitigating security risks"),
     emoji(
-      "⚡ Coordination of security related activities, creation and maintaining documentation and guidelines about security and help the team create a “culture” for security.",
+      "⚡ Coordination of security related activities, creation and maintaining documentation and guidelines about security and help the team create a “culture” for security."
     ),
     emoji("⚡ Some fullstack during my free time")
   ],
@@ -63,7 +60,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    
     {
       skillName: "Enumeration tools",
       fontAwesomeClassname: "fa fa-list"
@@ -278,7 +274,7 @@ const workExperiences = {
       descBullets: [
         "Creation, organization and participation of events to promote EIT Digital Master School to worldwide students.",
         "Direct contact with applicants."
-    ]
+      ]
     },
     {
       role: "Collaborator",
@@ -313,8 +309,10 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/double.png"),
-      projectName: "Master's thesis 'A Rapid Approach To Web Application Security'",
-      projectDesc: "Creation of a Master's thesis with Nokia to research the integration of security inside a completely unsecured web application.",
+      projectName:
+        "Master's thesis 'A Rapid Approach To Web Application Security'",
+      projectDesc:
+        "Creation of a Master's thesis with Nokia to research the integration of security inside a completely unsecured web application.",
       footerLink: [
         {
           name: "Read the thesis work",
@@ -326,7 +324,8 @@ const bigProjects = {
     {
       image: require("./assets/images/unamurlogo.png"),
       projectName: "Bachelor's thesis 'CPDI'",
-      projectDesc: "Creation of a backend using Django to help developers find the best technologies for their project",
+      projectDesc:
+        "Creation of a backend using Django to help developers find the best technologies for their project"
     }
   ],
   display: true // Set false to hide this section, defaults to true
