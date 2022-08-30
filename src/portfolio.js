@@ -26,7 +26,7 @@ const greeting = {
     "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Penetration Testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1t-iLlMfN1vc1HRZtX2_DE7PNV2GhhIk8/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1v8yTnJfLTaY_VuHJus5oPvg24-uiacv6/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
