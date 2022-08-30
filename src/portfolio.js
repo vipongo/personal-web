@@ -138,6 +138,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Comptia Security+",
+      logo: require("./assets/images/comptia.svg"),
+      subHeader: "Preparation to Comptia Security+ Certification",
+      duration: "August 2022 - Present",
+      desc: "Preparation to Comptia Security+ Certification with ambition to acquire it by end of September 2022.",
+      descBullets: [
+        "Assess",
+        "Monitor and secure",
+        "Operate",
+        "Identify, analyze, and respond"
+      ]
+    },
+    {
       schoolName: "Eötvös Loránd University",
       logo: require("./assets/images/eltelogo.png"),
       subHeader: "Master in Cyber Security",
@@ -353,6 +366,17 @@ const achievementSection = {
       ]
     },
     {
+      title: "HACKTHEBOX",
+      subtitle: "Top 500 Global Ranking.",
+      image: require("./assets/images/htb.png"),
+      footerLink: [
+        {
+          name: "Link to profile",
+          url: "https://app.hackthebox.com/profile/612703"
+        }
+      ]
+    },
+    {
       title: "Hack The Box Academy",
       subtitle:
         "Cyber security training with hands-on exercises and labs made by Hack The Box.",
@@ -407,20 +431,24 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Objectives",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "All my objectives to become a better cyber security expert."
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Acquire the Comptia Security+ Certificate"
+    },
+    {
+      title: "Learn and acquire certifications such as CISSP, CISA, OSCP, etc."
+    },
+    {
+      title:
+        "Continue to learn through practice (HACKTHEBOX, Hack The Box Academy, TryHackMe, etc.)"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
