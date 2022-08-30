@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e52fc6e21571798149976b03557feaf",
+    "revision": "87fe0c2276edc0bd4e74f229ceac4a38",
     "url": "/index.html"
   },
   {
-    "revision": "cb2aa4134aa2c239c95f",
+    "revision": "100cfc77bf3c9927e07a",
     "url": "/static/css/3.600f9446.chunk.css"
   },
   {
-    "revision": "b4fc3e4e624bb9596aeb",
+    "revision": "1abf24860f7cb913ed6e",
     "url": "/static/css/4.8fc991e4.chunk.css"
   },
   {
-    "revision": "c68b4152427befc30bbf",
-    "url": "/static/css/main.e0c5ed74.chunk.css"
+    "revision": "d020e2a15f4ea4f91d83",
+    "url": "/static/css/main.3f863a66.chunk.css"
   },
   {
-    "revision": "c9fbe733219a7fc721a0",
-    "url": "/static/js/2.84fee665.chunk.js"
+    "revision": "96340b3fbed6ddafa811",
+    "url": "/static/js/2.a8fc2a8e.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.84fee665.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a8fc2a8e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb2aa4134aa2c239c95f",
-    "url": "/static/js/3.e5d5f67a.chunk.js"
+    "revision": "100cfc77bf3c9927e07a",
+    "url": "/static/js/3.7e72306b.chunk.js"
   },
   {
-    "revision": "b4fc3e4e624bb9596aeb",
-    "url": "/static/js/4.750bf017.chunk.js"
+    "revision": "1abf24860f7cb913ed6e",
+    "url": "/static/js/4.d2277935.chunk.js"
   },
   {
-    "revision": "c68b4152427befc30bbf",
-    "url": "/static/js/main.c49e91a4.chunk.js"
+    "revision": "d020e2a15f4ea4f91d83",
+    "url": "/static/js/main.be8d9f98.chunk.js"
   },
   {
-    "revision": "65011fde89172383e2ca",
-    "url": "/static/js/runtime-main.4deaea89.js"
+    "revision": "4586f12063af49205209",
+    "url": "/static/js/runtime-main.309d31fb.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "b5c4dc58fc6ef2f99ad6e6700bcf5dd7",
+    "url": "/static/media/comptia.b5c4dc58.svg"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -84,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/skill.34409398.svg"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
+    "revision": "9a477e79bddd0bda5a07edb9c5bdbbe4",
+    "url": "/static/media/talksCardBack.9a477e79.svg"
   },
   {
     "revision": "e3c581739fbc6b6814acf4a5c603bb89",
