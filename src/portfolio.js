@@ -438,7 +438,7 @@ const talkSection = {
 
   talks: [
     {
-      title: "Acquire the Comptia Security+ Certificate"
+      title: "Acquire the Comptia Security+ Certification"
     },
     {
       title: "Learn and acquire certifications such as CISSP, CISA, OSCP, etc."
