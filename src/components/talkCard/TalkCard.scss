@@ -1,14 +1,15 @@
 @import "../../_globalColor";
 
 .container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
 }
 
 /* Rectangle Card Layout */
 .rectangle {
   background: url(../../assets/images/talksCardBack.svg);
-  width: 380px;
+  width: 350px;
   height: 300px;
   border-radius: 4px;
   box-shadow: 0px 20px 50px $darkBoxShadow;
@@ -16,7 +17,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 .rectangle:hover {
   box-shadow: 0 20px 40px $textColorDark;
@@ -39,7 +40,7 @@
   padding: 20px 0px 40px 30px;
   font-size: 30px;
   line-height: normal;
-  overflow: visible;
+  overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
