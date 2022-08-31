@@ -379,7 +379,7 @@ const achievementSection = {
     {
       title: "Hack The Box Academy",
       subtitle:
-        "Cyber security training with hands-on exercises and labs made by Hack The Box.",
+        "Cyber security training with hands-on exercises and labs made by Hack The Box. Top 1% student in the world.",
       image: require("./assets/images/htb.png"),
       footerLink: [
         {
