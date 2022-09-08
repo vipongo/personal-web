@@ -23,10 +23,10 @@ const greeting = {
   username: "Victor Schmit",
   title: "Hi all, I'm Victor Schmit",
   subTitle: emoji(
-    "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Penetration Testing."
+    "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Br9ZCXTBpgGxlOFL6ySgeRx9UaxP02X4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wmWJbS2aLUt3aowTo5zhTDMCCE5F5jdh/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -267,6 +267,7 @@ const workExperiences = {
       desc: "Information Security Manager in I&V organization tool development team.",
       descBullets: [
         "Identifying, managing, and mitigating security risks.",
+        "Secured three tool projects of test automation framework from scratch",
         "Coordination of security related activities.",
         "Creation and maintaining documentation and guidelines about security.",
         "Help the team create a 'culture' for security."
