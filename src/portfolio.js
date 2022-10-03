@@ -142,7 +142,7 @@ const educationInfo = {
       logo: require("./assets/images/comptia.svg"),
       subHeader: "Preparation to Comptia Security+ Certification",
       duration: "August 2022 - Present",
-      desc: "Preparation to Comptia Security+ Certification with ambition to acquire it by end of September 2022.",
+      desc: "Preparation to Comptia Security+ Certification with ambition to acquire it by end of October 2022.",
       descBullets: [
         "Assess",
         "Monitor and secure",
