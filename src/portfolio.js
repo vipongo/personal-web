@@ -26,7 +26,7 @@ const greeting = {
     "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1wmWJbS2aLUt3aowTo5zhTDMCCE5F5jdh/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_4lVjVwL8eHpy0nbf37Sg6T3pnXwoIzI/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -137,19 +137,19 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Comptia Security+",
-      logo: require("./assets/images/comptia.svg"),
-      subHeader: "Preparation to Comptia Security+ Certification",
-      duration: "August 2022 - Present",
-      desc: "Preparation to Comptia Security+ Certification with ambition to acquire it by end of October 2022.",
-      descBullets: [
-        "Assess",
-        "Monitor and secure",
-        "Operate",
-        "Identify, analyze, and respond"
-      ]
-    },
+    // {
+    //   schoolName: "Comptia Security+",
+    //   logo: require("./assets/images/comptia.svg"),
+    //   subHeader: "Preparation to Comptia Security+ Certification",
+    //   duration: "August 2022 - Present",
+    //   desc: "Preparation to Comptia Security+ Certification with ambition to acquire it by end of October 2022.",
+    //   descBullets: [
+    //     "Assess",
+    //     "Monitor and secure",
+    //     "Operate",
+    //     "Identify, analyze, and respond"
+    //   ]
+    // },
     {
       schoolName: "Eötvös Loránd University",
       logo: require("./assets/images/eltelogo.png"),
@@ -219,6 +219,10 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
+      Stack: "Cloud Solution and Security",
+      progressPercentage: "50%"
+    },
+    {
       Stack: "Fullstack",
       progressPercentage: "50%"
     }
@@ -240,15 +244,19 @@ const languageStack = {
     },
     {
       Stack: "Dutch",
-      progressPercentage: "40%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Russian",
       progressPercentage: "20%"
     },
     {
+      Stack: "German",
+      progressPercentage: "10%"
+    },
+    {
       Stack: "Hungarian",
-      progressPercentage: "15%"
+      progressPercentage: "10%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -260,10 +268,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Professional Security Engineer",
+      company: "Zühlke",
+      companylogo: require("./assets/images/zuhlke.png"),
+      date: "December 2022 – Present",
+      desc: "Consultant in Cybersecurity",
+      descBullets: [
+        "Identifying, managing, and mitigating security risks.",
+        "Secured three tool projects of test automation framework from scratch",
+        "Coordination of security related activities.",
+        "Creation and maintaining documentation and guidelines about security.",
+        "Help the team create a 'culture' for security."
+      ]
+    },
+    {
       role: "Information Security Manager",
       company: "Nokia",
       companylogo: require("./assets/images/nokia.png"),
-      date: "December 2021 – Present",
+      date: "December 2021 – December 2022",
       desc: "Information Security Manager in I&V organization tool development team.",
       descBullets: [
         "Identifying, managing, and mitigating security risks.",
@@ -389,9 +411,20 @@ const achievementSection = {
         }
       ]
     },
-
     {
-      title: "Advent of Cyber",
+      title: "Microsoft Azure Fundamental",
+      subtitle:
+        "Cloud concepts; Azure architecture and services; and Azure management and governance",
+      image: require("./assets/images/az900.svg"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/142Q_RjMRH5oL40ub2ML68lisjChLALRa/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Advent of Cyber 2021",
       subtitle: "Cyber Security challenges",
       image: require("./assets/images/tryhackme.png"),
       footerLink: [
@@ -439,7 +472,7 @@ const talkSection = {
 
   talks: [
     {
-      title: "Acquire the Comptia Security+ Certification"
+      title: "Acquire the AZ-500 Certification for Azure Security"
     },
     {
       title: "Learn and acquire certifications such as CISSP, CISA, OSCP, etc."
