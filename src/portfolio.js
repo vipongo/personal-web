@@ -26,7 +26,7 @@ const greeting = {
     "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1_4lVjVwL8eHpy0nbf37Sg6T3pnXwoIzI/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_FIIAe7YmccPUdS1pGVrtkozE1bWXUTI/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -247,12 +247,12 @@ const languageStack = {
       progressPercentage: "50%"
     },
     {
-      Stack: "Russian",
+      Stack: "German",
       progressPercentage: "20%"
     },
     {
-      Stack: "German",
-      progressPercentage: "10%"
+      Stack: "Russian",
+      progressPercentage: "20%"
     },
     {
       Stack: "Hungarian",
@@ -329,6 +329,72 @@ const workExperiences = {
   ]
 };
 
+
+const projectExperiences = {
+  display: true, //Set it to true to show projectExperiences Section
+  experience: [
+    {
+      role: "Penetration Tester",
+      //company: "Zühlke",
+      companylogo: require("./assets/images/pentest.jpg"),
+      date: "February 2022",
+      desc: "Penetration test of Web application",
+      descBullets: [
+        "For a worldwide company I was asked to identify vulnerabilities in their web application hosted on Azure. The task was to make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
+        "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, SSL/TLS Technologies, Azure, Blob storage."
+      ]
+    },
+    {
+      role: "Security Engineer",
+      //company: "Nokia",
+      companylogo: require("./assets/images/audit.jpg"),
+      date: "January 2022",
+      desc: "Security Audit",
+      descBullets: [
+        "For a leading company Swiss air-rescue company I am asked to make a security assessment of the infrastructure previously made and currently supported by the company. This infrastructure includes a web application (frontend and backend) and a cloud infrastructure. The audit focuses on all three major components. I focus on the authentication, powerful functions, possible injection points. For this purpose, Zühlke security team and software engineering team work together to be able to provide the highest level of quality to the software and to the security.",
+        "Tasks: Identifying, managing, and mitigating security risks; coordination of security related activities; increase cloud security",
+        "Methods and technologies: Static analysis tools (SemGrep, Net analyzer), code review, authentication process, threat modeling, network traffic analyzer (BurpSuite, ZAP), .NET Core, Angular, SQL Express, Azure Active Directory, Azure DevOps"
+        
+      ]
+    },
+    {
+      role: "Information Security Manager",
+      //company: "CSLabs Namur",
+      companylogo: require("./assets/images/manager.jpg"),
+      date: "December 2021 – December 2022",
+      desc: "Managing 3 Applications",
+      descBullets: [
+      "Introducing security in two web and one mobile application (Android) for a major telecommunication company. Those applications are a major part of the activity of this major telecommunication provider. They do provide in depth analysis over wireless mobile connectivity. The applications require permanent communications through secure channels to exchange important analysis, logs and monitoring. Encryption and decryption of those messages must be fast, reliable and secure. The applications required to create a performant licensing possibility for customers outside of the organization.",
+      "Tasks: Identifying, Managing, and mitigating security risks; Coordination of security related activities; creation and maintaining documentation and guidelines about security; help the team create a 'culture' for security; container security hardening",
+      "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE), Kubernetes, Hashicorp Vault, Keycloak, Docker, MongoDB, JWT, SSK/TLS Technologies"
+      ]
+    },
+    {
+      role: "Security Coach",
+      //company: "EIT Digital Master School",
+      companylogo: require("./assets/images/coach.jpg"),
+      date: "October 2021",
+      desc: "Training A Team",
+      descBullets: [
+        "Coaching a big (30+) team of developers on the different concept of cyber security inside a web application and the methodology to minimize security vulnerabilities in the code during the development phase",
+        "Methodology: 6 hours training course at the facility, exercise to find vulnerabilities"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      //company: "Eötvös Loránd University",
+      companylogo: require("./assets/images/SW.jpg"),
+      date: "June 2019 – August 2020",
+      desc: "Google Scholar API",
+      descBullets: [
+        "Creation of a customized Google Scholar API for a University client. The API had to be made so it would connect with minimal amount of effort to the client’s webserver so the client would be able to make request fast and efficiently.",
+        "Task: API creation in Python3. Understanding the previous Google Scholar API (Scholarly) and modifying it."
+      ]
+    }
+  ]
+};
+
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -351,7 +417,7 @@ const bigProjects = {
         "Creation of a Master's thesis with Nokia to research the integration of security inside a completely unsecured web application.",
       footerLink: [
         {
-          name: "Read the thesis work",
+          name: "Read my thesis work",
           url: "https://www.utupub.fi/handle/10024/154332"
         }
         //  you can add extra buttons here.
@@ -389,7 +455,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "HACKTHEBOX",
+      title: "Hack The Box",
       subtitle: "Top 500 Global Ranking.",
       image: require("./assets/images/htb.png"),
       footerLink: [
@@ -420,6 +486,17 @@ const achievementSection = {
         {
           name: "Certificate",
           url: "https://drive.google.com/file/d/142Q_RjMRH5oL40ub2ML68lisjChLALRa/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Advent of Cyber 2022",
+      subtitle: "Cyber Security challenges",
+      image: require("./assets/images/tryhackme.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1w4Xm9U0JogzZ0AuQ_dW0ORz7zFYWxwCI/view?usp=sharing"
         }
       ]
     },
@@ -479,7 +556,7 @@ const talkSection = {
     },
     {
       title:
-        "Continue to learn through practice (HACKTHEBOX, Hack The Box Academy, TryHackMe, etc.)"
+        "Continue to learn through practice (Hack The Box, Hack The Box Academy, TryHackMe, etc.)"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -522,6 +599,7 @@ export {
   techStack,
   languageStack,
   workExperiences,
+  projectExperiences,
   openSource,
   bigProjects,
   achievementSection,
