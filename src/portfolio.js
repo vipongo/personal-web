@@ -46,12 +46,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Cyber Security passionate always wanting to learn more!",
   skills: [
-    emoji("⚡ Penetration testing assessment"),
-    emoji("⚡ Identifying, managing, and mitigating security risks"),
-    emoji(
+    "⚡ Penetration testing assessment",
+    "⚡ Identifying, managing, and mitigating security risks",
+    
       "⚡ Coordination of security related activities, creation and maintaining documentation and guidelines about security and help the team create a “culture” for security."
-    ),
-    emoji("⚡ Some fullstack during my free time")
+    ,
+    "⚡ Some fullstack during my free time"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -574,7 +574,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Interested for collaboration? I will always gladly reply to your messages. You can write me on LinkedIn or directly to my email address.",
   email_address: "victor.schmit.vs@gmail.com"
