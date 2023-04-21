@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Victor Schmit",
   title: "Hi all, I'm Victor Schmit",
-  subTitle: emoji(
-    "A Cyber Security Expert and Passionate  🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing."
-  ),
+  subTitle: "A Cyber Security Expert and Passionate 🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing.",
   resumeLink:
     "https://drive.google.com/file/d/1_FIIAe7YmccPUdS1pGVrtkozE1bWXUTI/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
