@@ -2,7 +2,6 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -435,7 +434,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   //subtitle:
   //"Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -541,9 +540,9 @@ const blogSection = {
 
 const talkSection = {
   title: "Objectives",
-  subtitle: emoji(
+  subtitle: 
     "All my objectives to become a better cyber security expert."
-  ),
+  ,
 
   talks: [
     {
@@ -563,7 +562,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: "Podcast 🎙️",
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
