@@ -332,59 +332,96 @@ const projectExperiences = {
   experience: [
     {
       role: "Penetration Tester",
-      //company: "Zühlke",
-      companylogo: require("./assets/images/pentest.jpg"),
-      date: "February 2022",
-      desc: "Penetration test of Web application",
+      companylogo: require("./assets/images/pentest2.jpg"),
+      date: "June 2023 - July 2023",
+      desc: "Penetration Test of multiple systems",
       descBullets: [
-        "For a worldwide company I was asked to identify vulnerabilities in their web application hosted on Azure. The task was to make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
+        "For a leading financing Swiss company, I was asked to identify vulnerabilities in their web applications (including DBMS), their STFP server and their AWS infrastructure. The task was to make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
+        "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, SSL/TLS Technologies, Azure, Blob storage."
+      ]
+    },
+    {
+      role: "Security Consultant",
+      companylogo: require("./assets/images/Consulting.jpg"),
+      date: "March 2023 - Present",
+      desc: "Security Consulting GRC platform",
+      descBullets: [
+        "For a major Swiss company, I help maintaining the security of a GRC platform as well as performing testing on releases. I also help the company plan the secure approach on the platform and support them for security topics such as IAM.",
+        "Tasks: Identifying, managing, and mitigating security risks, coordination with the team, threat analysis",
+        "Methods and technologies: SSL/TLS Technologies, SAI360"
+      ]
+    },
+    {
+      role: "Security Assessment",
+      companylogo: require("./assets/images/Azure.jpg"),
+      date: "March 2023",
+      desc: "Security Assessment of Azure Infrastructure",
+      descBullets: [
+        "For a leading company in AI and health, I performed a complete Security Assessment of the Azure infrastructure. The assessment encompassed several key tasks, starting with identifying potential security risks and vulnerabilities in the infrastructure. I coordinated various security-related activities, working closely with the development and operations teams to prioritize and mitigate these risks effectively.",
+        "Tasks: Identifying, managing, and mitigating security risks, coordination with the team; increase cloud security.",
+        "Methods and technologies: JWT, SSL/TLS Technologies, Azure, Blob storage, Docker, Well Architected Framework."
+      ]
+    },
+    {
+      role: "Security Engineer",
+      companylogo: require("./assets/images/softhsm.jpg"),
+      date: "March 2023",
+      desc: "Security Engineer for SoftHSM",
+      descBullets: [
+        "For a worldwide company in Health, I achieved the creation of an API for secure and reliable communication between a software HSM (softHSM) and the different systems. The API was coded using C++ and multiple librairies that were customized for the specific needs. The API was tested and worked accordingly to the specifications.",
+        "Methods and technologies: OpenSSL, BOTAN 2, C++, Security/Risk Management, Podman."
+      ]
+    },
+    {
+      role: "Penetration Tester",
+      companylogo: require("./assets/images/pentest.jpg"),
+      date: "February 2023",
+      desc: "Penetration Test of Web Application",
+      descBullets: [
+        "For a worldwide company, I was asked to identify vulnerabilities in their web application hosted on Azure. The task was to make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
         "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, SSL/TLS Technologies, Azure, Blob storage."
       ]
     },
     {
       role: "Security Engineer",
-      //company: "Nokia",
       companylogo: require("./assets/images/audit.jpg"),
-      date: "January 2022",
-      desc: "Security Audit",
+      date: "January 2023",
+      desc: "Security Assessment",
       descBullets: [
         "For a leading company Swiss air-rescue company I am asked to make a security assessment of the infrastructure previously made and currently supported by the company. This infrastructure includes a web application (frontend and backend) and a cloud infrastructure. The audit focuses on all three major components. I focus on the authentication, powerful functions, possible injection points. For this purpose, Zühlke security team and software engineering team work together to be able to provide the highest level of quality to the software and to the security.",
-        "Tasks: Identifying, managing, and mitigating security risks; coordination of security related activities; increase cloud security",
-        "Methods and technologies: Static analysis tools (SemGrep, Net analyzer), code review, authentication process, threat modeling, network traffic analyzer (BurpSuite, ZAP), .NET Core, Angular, SQL Express, Azure Active Directory, Azure DevOps"
+        "Tasks: Identifying, managing, and mitigating security risks; coordination of security related activities; increase cloud security.",
+        "Methods and technologies: Static analysis tools (SemGrep, Net analyzer), code review, authentication process, threat modeling, network traffic analyzer (BurpSuite, ZAP), .NET Core, Angular, SQL Express, Azure Active Directory, Azure DevOps."
         
       ]
     },
     {
       role: "Information Security Manager",
-      //company: "CSLabs Namur",
       companylogo: require("./assets/images/manager.jpg"),
       date: "December 2021 – December 2022",
       desc: "Managing 3 Applications",
       descBullets: [
       "Introducing security in two web and one mobile application (Android) for a major telecommunication company. Those applications are a major part of the activity of this major telecommunication provider. They do provide in depth analysis over wireless mobile connectivity. The applications require permanent communications through secure channels to exchange important analysis, logs and monitoring. Encryption and decryption of those messages must be fast, reliable and secure. The applications required to create a performant licensing possibility for customers outside of the organization.",
-      "Tasks: Identifying, Managing, and mitigating security risks; Coordination of security related activities; creation and maintaining documentation and guidelines about security; help the team create a 'culture' for security; container security hardening",
-      "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE), Kubernetes, Hashicorp Vault, Keycloak, Docker, MongoDB, JWT, SSK/TLS Technologies"
+      "Tasks: Identifying, Managing, and mitigating security risks; Coordination of security related activities; creation and maintaining documentation and guidelines about security; help the team create a 'culture' for security; container security hardening.",
+      "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE), Kubernetes, Hashicorp Vault, Keycloak, Docker, MongoDB, JWT, SSK/TLS Technologies."
       ]
     },
     {
       role: "Security Coach",
-      //company: "EIT Digital Master School",
       companylogo: require("./assets/images/coach.jpg"),
       date: "October 2021",
       desc: "Training A Team",
       descBullets: [
         "Coaching a big (30+) team of developers on the different concept of cyber security inside a web application and the methodology to minimize security vulnerabilities in the code during the development phase",
-        "Methodology: 6 hours training course at the facility, exercise to find vulnerabilities"
+        "Methodology: 6 hours training course at the facility, exercise to find vulnerabilities."
       ]
     },
     {
       role: "Software Engineer",
-      //company: "Eötvös Loránd University",
       companylogo: require("./assets/images/SW.jpg"),
       date: "June 2019 – August 2020",
       desc: "Google Scholar API",
       descBullets: [
-        "Creation of a customized Google Scholar API for a University client. The API had to be made so it would connect with minimal amount of effort to the client’s webserver so the client would be able to make request fast and efficiently.",
+        "Creation of a customized Google Scholar API for a University client. The API had to be made so it would connect with minimal amount of effort to the client's webserver so the client would be able to make request fast and efficiently.",
         "Task: API creation in Python3. Understanding the previous Google Scholar API (Scholarly) and modifying it."
       ]
     }
