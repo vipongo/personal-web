@@ -519,7 +519,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url: "https://drive.google.com/file/d/142Q_RjMRH5oL40ub2ML68lisjChLALRa/view?usp=sharing"
+          url: "https://www.credly.com/badges/63a92ddb-a845-4941-b21f-aeb51fff5124/public_url"
         }
       ]
     },
