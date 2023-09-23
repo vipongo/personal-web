@@ -332,7 +332,7 @@ const projectExperiences = {
   experience: [
     {
       role: "Penetration Tester",
-      companylogo: require("./assets/images/pentest2.jpg"),
+      companylogo: require("./assets/images/pentest2 copy.jpg"),
       date: "June 2023 - July 2023",
       desc: "Penetration Test of multiple systems",
       descBullets: [
@@ -342,7 +342,7 @@ const projectExperiences = {
     },
     {
       role: "Security Consultant",
-      companylogo: require("./assets/images/Consulting.jpg"),
+      companylogo: require("./assets/images/Consulting copy.jpg"),
       date: "March 2023 - Present",
       desc: "Security Consulting GRC platform",
       descBullets: [
@@ -364,7 +364,7 @@ const projectExperiences = {
     },
     {
       role: "Security Engineer",
-      companylogo: require("./assets/images/softhsm.jpg"),
+      companylogo: require("./assets/images/softhsm copy.jpg"),
       date: "March 2023",
       desc: "Security Engineer for SoftHSM",
       descBullets: [
