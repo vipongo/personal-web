@@ -504,7 +504,7 @@ const achievementSection = {
       title: "Microsoft Azure Fundamental",
       subtitle:
         "Cloud concepts; Azure architecture and services; and Azure management and governance",
-      image: require("./assets/images/az900.svg"),
+      image: require("./assets/images/az900.png"),
       footerLink: [
         {
           name: "Certificate",
