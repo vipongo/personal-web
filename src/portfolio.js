@@ -477,13 +477,49 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Practical Ethical Hacking (PEH)",
+      title: "CompTIA Security +",
+      subtitle:
+        "CompTIA Security + validates certified professionals have the skills required to recommend and implement security solutions",
+      image: require("./assets/images/CompTIA.png"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/94e3e485-d4e6-424d-b4ba-9eedabe91779/public_url"
+        }
+      ]
+    },
+    {
+      title: "ISC2 Certified in Cybersecurity",
+      subtitle:
+        "Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Controls Concepts, Network Security, Security Operations",
+      image: require("./assets/images/cc.jpeg"),
+      footerLink: [
+        {
+          name: "Yet to be given",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Microsoft Azure Fundamental",
+      subtitle:
+        "Cloud concepts; Azure architecture and services; and Azure management and governance",
+      image: require("./assets/images/az900.svg"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/63a92ddb-a845-4941-b21f-aeb51fff5124/public_url"
+        }
+      ]
+    },
+    {
+      title: "Practical Ethical Hacking (Course)",
       subtitle:
         "Practical side of ethical hacking. Providing a deep understanding of external and internal network penetration testing, wireless penetration testing, and web application penetration testing. ",
       image: require("./assets/images/tcm.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://drive.google.com/file/d/15_NUa2mLRNqhAPOHC7_WxnpncCHg2ahv/view?usp=sharing"
         }
       ]
@@ -512,24 +548,12 @@ const achievementSection = {
       ]
     },
     {
-      title: "Microsoft Azure Fundamental",
-      subtitle:
-        "Cloud concepts; Azure architecture and services; and Azure management and governance",
-      image: require("./assets/images/az900.svg"),
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://www.credly.com/badges/63a92ddb-a845-4941-b21f-aeb51fff5124/public_url"
-        }
-      ]
-    },
-    {
       title: "Advent of Cyber 2022",
       subtitle: "Cyber Security challenges",
       image: require("./assets/images/tryhackme.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://drive.google.com/file/d/1w4Xm9U0JogzZ0AuQ_dW0ORz7zFYWxwCI/view?usp=sharing"
         }
       ]
@@ -540,7 +564,7 @@ const achievementSection = {
       image: require("./assets/images/tryhackme.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://drive.google.com/file/d/1_DaZTHJr_QQC8SLbkr0SyLBeKZZyP_Wl/view?usp=sharing"
         }
       ]
