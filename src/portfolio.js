@@ -23,7 +23,7 @@ const greeting = {
   title: "Hi all, I'm Victor Schmit",
   subTitle: "A Cyber Security Expert and Passionate 🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing.",
   resumeLink:
-    "https://drive.google.com/file/d/1_FIIAe7YmccPUdS1pGVrtkozE1bWXUTI/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ROM4FYb9h7dmPw6eWbrMgayAQ6q8kQhW/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
