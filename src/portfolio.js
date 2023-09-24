@@ -364,7 +364,7 @@ const projectExperiences = {
     },
     {
       role: "Security Engineer",
-      companylogo: require("./assets/images/softhsm.jpg"),
+      companylogo: require("./assets/images/softhsm.png"),
       date: "March 2023",
       desc: "Security Engineer for SoftHSM",
       descBullets: [
