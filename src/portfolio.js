@@ -331,6 +331,17 @@ const projectExperiences = {
   display: true, //Set it to true to show projectExperiences Section
   experience: [
     {
+      role: "AWS consulting",
+      companylogo: require("./assets/images/aws.jpg"),
+      date: "May 2023 - Present",
+      desc: "Penetration Test of multiple systems",
+      descBullets: [
+        "For a major Swiss company, the customer needs help building and maintaining their public cloud infrastructure to be able to have their IT services running sustainably and cost-efficiently. To be able to assist the customer, a complete review and update of the cloud infrastructure is necessary (policies, IAM, resources management, …).",
+        "Tasks: Identifying, managing, and mitigating security risks, coordination with the team, threat analysis.",
+        "Methods and technologies: AWS, Policies, Regulations"
+      ]
+    },
+    {
       role: "Penetration Tester",
       companylogo: require("./assets/images/pentest2.jpg"),
       date: "June 2023 - July 2023",
