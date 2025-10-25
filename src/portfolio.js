@@ -341,7 +341,6 @@ const projectExperiences = {
       role: "Security Consultant and Engineer for IEC 62443 Compliance",
       companylogo: require("./assets/images/compliance.jpg"),
       date: "March 2025 - Present",
-      desc: "Penetration Test of multiple systems",
       descBullets: [
         "For a global manufacturer in the industrial and transport sector, the project aimed to ensure compliance of complex control systems with the IEC 62443 cybersecurity standard. The engagement covered the full lifecycle, from defining the security development framework to managing and validating technical and organizational controls through coordinated security testing.",
         "Tasks: Managing and coordinating the execution of security tests and audits, aligning test planning with the IEC 62443-4-1 requirements, creating and maintaining the security validation documentation, and leading risk assessments and remediation tracking with development and system engineering teams. Ensuring proper traceability between requirements, tests, and compliance artifacts.",
@@ -352,7 +351,6 @@ const projectExperiences = {
       role: "Cybersecurity Lead for ForgeRock Customization",
       companylogo: require("./assets/images/access.jpg"),
       date: "July 2024 - February 2025",
-      desc: "Penetration Test of multiple systems",
       descBullets: [
         "One of Hong Kong's largest non-profit organizations designs and builds a new IAM platform serving 3 million customers. This platform is critical to supporting 95% of the organization’s revenue through online betting, requiring exceptional reliability, performance, and security.",
         "Tasks: Ensured the security aspect in key components of the solution. Creation of a threat model of the solution, supporting pentests and reviewing findings, code review, security hardening review of configurations, policies, processes. Collaborated with stakeholders to align security solutions with business needs.",
@@ -360,7 +358,7 @@ const projectExperiences = {
       ]
     },
     {
-      role: "AWS consulting",
+      role: "Security Consultant and Engineer for AWS Cloud Infrastructure",
       companylogo: require("./assets/images/aws.jpg"),
       date: "May 2023 - May 2025",
       desc: "Penetration Test of multiple systems",
