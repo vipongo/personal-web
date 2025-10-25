@@ -26,6 +26,7 @@ export default function WorkExperience() {
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
+                        descNonBullet: card.descNonBullet,
                         descBullets: card.descBullets
                       }}
                     />

@@ -21,19 +21,19 @@ const illustration = {
 const greeting = {
   username: "Victor Schmit",
   title: "Hi all, I'm Victor Schmit",
-  subTitle: "A Cyber Security Expert and Passionate 🚀 Having an experience in Information Security Management and a great interest in Auditing and Penetration Testing.",
+  subTitle: "A Cybersecurity professional with experience in security engineering, architecture, and risk management across cloud and enterprise environments.",
   resumeLink:
-    "https://drive.google.com/file/d/1U0f5TXHR_NWhFWJoPQXYmdH0HO0rGKuz/view?usp=sharing", // Set to empty to hide the button
+    "./assets/images/schmit_2025-11.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/victor-schmit-53a2461b7/",
-  gmail: "victor.schmit.vs@gmail.com",
-  hackthebox: "https://app.hackthebox.com/profile/612703",
-  github: "https://github.com/vipongo",
+  linkedin: "https://www.linkedin.com/in/victorschmit/",
+  gmail: "victor.schmit.vs@proton.me",
+  //hackthebox: "https://app.hackthebox.com/profile/612703",
+  //github: "https://github.com/vipongo",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -43,90 +43,82 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Cyber Security passionate always wanting to learn more!",
+  subTitle:
+    "Bridging cybersecurity engineering and governance to build secure, resilient, and compliant systems.",
   skills: [
-    "⚡ Penetration testing assessment",
-    "⚡ Identifying, managing, and mitigating security risks",
-    
-      "⚡ Coordination of security related activities, creation and maintaining documentation and guidelines about security and help the team create a “culture” for security."
-    ,
-    "⚡ Some fullstack during my free time"
+    "⚡ Implementing and assessing security controls in alignment with IEC 62443, NIST CSF, and CIS Benchmarks.",
+    "⚡ Conducting and managing penetration tests, vulnerability assessments, and secure architecture reviews across cloud, web, and embedded systems.",
+    "⚡ Driving security governance, from risk identification and mitigation to documentation, awareness, and fostering a strong security culture within development teams.",
+    "⚡ Continuously learning and experimenting with new cybersecurity tools, frameworks, and techniques to stay ahead of emerging threats"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Enumeration tools",
-      fontAwesomeClassname: "fa fa-list"
-    },
-    {
-      skillName: "Privilege Escalation",
-      fontAwesomeClassname: "fa fa-angle-double-up"
-    },
-    {
-      skillName: "Information Disclosure",
-      fontAwesomeClassname: "fa fa-exclamation-circle"
-    },
-    {
-      skillName: "Exploit Finding",
+      skillName: "Penetration Testing",
       fontAwesomeClassname: "fa fa-user-secret"
     },
     {
-      skillName: "Bash",
-      fontAwesomeClassname: "fa fa-code"
+      skillName: "Threat Modeling",
+      fontAwesomeClassname: "fa fa-project-diagram"
     },
     {
-      skillName: "Cryptography",
-      fontAwesomeClassname: "fa fa-key"
+      skillName: "IEC 62443 / NIST CSF",
+      fontAwesomeClassname: "fa fa-shield-alt"
     },
     {
-      skillName: "Report writing",
-      fontAwesomeClassname: "fa fa-file"
-    },
-    {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "Databases",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Cloud Security",
+      fontAwesomeClassname: "fa fa-cloud"
     },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "Bash / PowerShell",
+      fontAwesomeClassname: "fa fa-terminal"
+    },
+    {
+      skillName: "Azure / Sentinel",
+      fontAwesomeClassname: "fa fa-microsoft"
+    },
+    {
+      skillName: "CIAM & IAM",
+      fontAwesomeClassname: "fa fa-user-lock"
+    },
+    {
+      skillName: "DevSecOps",
+      fontAwesomeClassname: "fa fa-cogs"
+    },
+    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Database Security",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Report Writing",
+      fontAwesomeClassname: "fa fa-file-alt"
+    },
+    {
+      skillName: "Risk Communication",
+      fontAwesomeClassname: "fa fa-file-alt"
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -208,21 +200,30 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Information Security Management", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Governance & Risk Management", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Penetration Testing",
-      progressPercentage: "70%"
+      Stack: "Security Architecture & Engineering", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Cloud Solution and Security",
-      progressPercentage: "50%"
+      Stack: "Communication & Leadership", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Fullstack",
-      progressPercentage: "50%"
+      Stack: "Security Operations & Testing", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Programming & Automation", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Cloud & DevSecOps", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     }
+    
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -240,20 +241,12 @@ const languageStack = {
       progressPercentage: "100%"
     },
     {
-      Stack: "Dutch",
-      progressPercentage: "50%"
-    },
-    {
       Stack: "German",
-      progressPercentage: "20%"
-    },
-    {
-      Stack: "Russian",
-      progressPercentage: "20%"
+      progressPercentage: "30%"
     },
     {
       Stack: "Hungarian",
-      progressPercentage: "10%"
+      progressPercentage: "30%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -265,56 +258,70 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Advanced Security Engineer",
+      company: "Zühlke",
+      companylogo: require("./assets/images/zuhlke.png"),
+      date: "January 2025 – Present",
+      desc: "Consultant in Cybersecurity",
+      descBullets: [
+        "Lead security governance and maturity reviews aligned with NIST CSF and CIS Benchmarks.",
+        "Define and validate IEC 62443 logical test cases for authentication, access control, and session management.",
+        "Perform secure architecture assessments (cloud/IAM) and targeted penetration tests with reproducible PoCs.",
+        "Advise on CIAM security, least-privilege, and role hygiene; support DevSecOps adoption."
+      ]
+    },
+    {
       role: "Professional Security Engineer",
       company: "Zühlke",
       companylogo: require("./assets/images/zuhlke.png"),
-      date: "December 2022 – Present",
+      date: "December 2022 – December 2024",
       desc: "Consultant in Cybersecurity",
       descBullets: [
-        "Identifying, managing, and mitigating security risks.",
-        "Secured three tool projects of test automation framework from scratch",
-        "Coordination of security related activities.",
-        "Creation and maintaining documentation and guidelines about security.",
-        "Help the team create a 'culture' for security."
+        "Performed CIAM Foundation review against NIST CSF & CIS Benchmarks; produced prioritized remediation plan.",
+        "Executed API/web assessments (incl. OAuth/OIDC token flows) and documented issues with clear reproduction steps.",
+        "Advised on Entra ID Conditional Access, MFA hardening, PIM/role hygiene; reduced standing privileges",
+        "Coached teams on threat modeling (STRIDE) and SSDLC practices; facilitated security backlog triage"
       ]
     },
     {
-      role: "Information Security Manager",
+      role: "Security Lead",
       company: "Nokia",
       companylogo: require("./assets/images/nokia.png"),
       date: "December 2021 – December 2022",
-      desc: "Information Security Manager in I&V organization tool development team.",
+      desc: "Secure internal test automation frameworks and align them with corporate security standards.",
       descBullets: [
-        "Identifying, managing, and mitigating security risks.",
-        "Secured three tool projects of test automation framework from scratch",
-        "Coordination of security related activities.",
+        "Defined security requirements and controls for three automation platforms: integrated security testing in CI/CD.",
+        "Led internal security assessments and policy adoption initiatives with engineering teams.",
         "Creation and maintaining documentation and guidelines about security.",
         "Help the team create a 'culture' for security."
       ]
-    },
-    {
-      role: "Software Engineer",
-      company: "CSLabs Namur",
-      companylogo: require("./assets/images/cslabs.png"),
-      date: "June 2019 – August 2020",
-      desc: "Developing a Google Scholar API."
     },
     {
       role: "Student Ambassador",
       company: "EIT Digital Master School",
       companylogo: require("./assets/images/eit.png"),
-      date: "November 2021 – Present",
+      date: "November 2021 – March 2023",
       descBullets: [
         "Creation, organization and participation of events to promote EIT Digital Master School to worldwide students.",
         "Direct contact with applicants."
       ]
     },
-    {
+      {
       role: "Collaborator",
       company: "Eötvös Loránd University",
       companylogo: require("./assets/images/eltelogo.png"),
       date: "December 2020 – January 2021",
-      desc: "Creating in collaboration a new EIT Digital class called Innosocial."
+      desc: "Co-created an EIT Digital course (Innosocial) on business innovation."
+    },
+    {
+      role: "Developer & Event Organizer",
+      company: "CSLabs Namur",
+      companylogo: require("./assets/images/cslabs.png"),
+      date: "June 2019 – August 2020",
+      descBullets: [
+        "Developed a Google Scholar API for university professors.",
+        "Organized a hackathon."
+      ]
     },
     {
       role: "Computer Security Animator",
@@ -331,9 +338,31 @@ const projectExperiences = {
   display: true, //Set it to true to show projectExperiences Section
   experience: [
     {
+      role: "Security Consultant and Engineer for IEC 62443 Compliance",
+      companylogo: require("./assets/images/compliance.jpg"),
+      date: "March 2025 - Present",
+      desc: "Penetration Test of multiple systems",
+      descBullets: [
+        "For a global manufacturer in the industrial and transport sector, the project aimed to ensure compliance of complex control systems with the IEC 62443 cybersecurity standard. The engagement covered the full lifecycle, from defining the security development framework to managing and validating technical and organizational controls through coordinated security testing.",
+        "Tasks: Managing and coordinating the execution of security tests and audits, aligning test planning with the IEC 62443-4-1 requirements, creating and maintaining the security validation documentation, and leading risk assessments and remediation tracking with development and system engineering teams. Ensuring proper traceability between requirements, tests, and compliance artifacts.",
+        "Methods and technologies: IEC 62443-4-1, Threat Modeling (STRIDE), Security Test Management, Vulnerability Assessment, Secure SDLC, Python and PowerShell automation for validation tests, and Test Evidence Documentation (MKS)."
+      ]
+    },
+    {
+      role: "Cybersecurity Lead for ForgeRock Customization",
+      companylogo: require("./assets/images/access.jpg"),
+      date: "July 2024 - February 2025",
+      desc: "Penetration Test of multiple systems",
+      descBullets: [
+        "One of Hong Kong's largest non-profit organizations designs and builds a new IAM platform serving 3 million customers. This platform is critical to supporting 95% of the organization’s revenue through online betting, requiring exceptional reliability, performance, and security.",
+        "Tasks: Ensured the security aspect in key components of the solution. Creation of a threat model of the solution, supporting pentests and reviewing findings, code review, security hardening review of configurations, policies, processes. Collaborated with stakeholders to align security solutions with business needs.",
+        "Methods and technologies: ForgeRock IAM, Java Development, Kubernetes, Penetration Testing, Threat Model, Security Policies"
+      ]
+    },
+    {
       role: "AWS consulting",
       companylogo: require("./assets/images/aws.jpg"),
-      date: "May 2023 - Present",
+      date: "May 2023 - May 2025",
       desc: "Penetration Test of multiple systems",
       descBullets: [
         "For a major Swiss company, the customer needs help building and maintaining their public cloud infrastructure to be able to have their IT services running sustainably and cost-efficiently. To be able to assist the customer, a complete review and update of the cloud infrastructure is necessary (policies, IAM, resources management, …).",
@@ -354,7 +383,7 @@ const projectExperiences = {
     {
       role: "Security Consultant",
       companylogo: require("./assets/images/Consulting.jpg"),
-      date: "March 2023 - Present",
+      date: "March 2023 - December 2023",
       desc: "Security Consulting GRC platform",
       descBullets: [
         "For a major Swiss company, I help maintaining the security of a GRC platform as well as performing testing on releases. I also help the company plan the secure approach on the platform and support them for security topics such as IAM.",
@@ -406,7 +435,7 @@ const projectExperiences = {
       ]
     },
     {
-      role: "Information Security Manager",
+      role: "Security Lead",
       companylogo: require("./assets/images/manager.jpg"),
       date: "December 2021 – December 2022",
       desc: "Managing 3 Applications",
@@ -488,13 +517,37 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "ISACA CISM ",
+      subtitle:
+        "The management-focused CISM (Certified Information Security Manager) is the globally accepted standard for individuals who design, build and manage enterprise information security programs.",
+      image: require("./assets/images/cism.png"),
+      footerLink: [
+        {
+          name: "Link to badge",
+          url: "https://www.credly.com/badges/ee1a02cd-1113-428a-ba2d-e3009c3471ce/public_url"
+        }
+      ]
+    },
+    {
+      title: "ISC2 CISSP Associate",
+      subtitle:
+        "The vendor-neutral CISSP credential confirms technical knowledge and experience to design, engineer, implement, and manage the overall security posture of an organization.",
+      image: require("./assets/images/cissp.webp"),
+      footerLink: [
+        {
+          name: "Link to badge",
+          url: "https://www.credly.com/badges/0c07f08a-cf8b-407c-a251-64aa6c8563d8/public_url"
+        }
+      ]
+    },
+    {
       title: "CompTIA Security +",
       subtitle:
-        "CompTIA Security + validates certified professionals have the skills required to recommend and implement security solutions",
+        "CompTIA Security + validates certified professionals have the skills required to recommend and implement security solutions.",
       image: require("./assets/images/CompTIA.png"),
       footerLink: [
         {
-          name: "Certificate",
+          name: "Link to badge",
           url: "https://www.credly.com/badges/94e3e485-d4e6-424d-b4ba-9eedabe91779/public_url"
         }
       ]
@@ -502,23 +555,23 @@ const achievementSection = {
     {
       title: "ISC2 Certified in Cybersecurity",
       subtitle:
-        "Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Controls Concepts, Network Security, Security Operations",
+        "Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Controls Concepts, Network Security, Security Operations.",
       image: require("./assets/images/cc.jpeg"),
       footerLink: [
         {
-          name: "Yet to be given",
-          url: ""
+          name: "Link to badge", 
+          url: "https://www.credly.com/badges/77de2a89-0800-4237-a6d3-d6f156c15fdb/public_url"
         }
       ]
     },
     {
       title: "Microsoft Azure Fundamental",
       subtitle:
-        "Cloud concepts; Azure architecture and services; and Azure management and governance",
+        "Cloud concepts; Azure architecture and services; and Azure management and governance.",
       image: require("./assets/images/az900.png"),
       footerLink: [
         {
-          name: "Certificate",
+          name: "Link to badge",
           url: "https://www.credly.com/badges/63a92ddb-a845-4941-b21f-aeb51fff5124/public_url"
         }
       ]
@@ -526,7 +579,7 @@ const achievementSection = {
     {
       title: "Practical Ethical Hacking (Course)",
       subtitle:
-        "Practical side of ethical hacking. Providing a deep understanding of external and internal network penetration testing, wireless penetration testing, and web application penetration testing. ",
+        "Practical side of ethical hacking. Providing a deep understanding of external and internal network penetration testing, wireless penetration testing, and web application penetration testing.",
       image: require("./assets/images/tcm.png"),
       footerLink: [
         {
@@ -537,7 +590,7 @@ const achievementSection = {
     },
     {
       title: "Hack The Box",
-      subtitle: "Top 500 Global Ranking.",
+      subtitle: "Top 1000 Global Ranking.",
       image: require("./assets/images/htb.png"),
       footerLink: [
         {
@@ -618,14 +671,14 @@ const talkSection = {
 
   talks: [
     {
-      title: "Acquire the AZ-500 Certification for Azure Security"
+      title: "Develop knowledge through experience and new certifications such as CISA and OSCP."
     },
     {
-      title: "Learn and acquire certifications such as CISSP, CISA, OSCP, etc."
+      title: "Share my knowledge with the community through events and mentoring."
     },
     {
       title:
-        "Continue to learn through practice (Hack The Box, Hack The Box Academy, TryHackMe, etc.)"
+        "Continue to understand threat and learn through practice (Hack The Box, TryHackMe)"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -648,7 +701,7 @@ const contactInfo = {
   title: "Contact Me ☎️",
   subtitle:
     "Interested for collaboration? I will always gladly reply to your messages. You can write me on LinkedIn or directly to my email address.",
-  email_address: "victor.schmit.vs@gmail.com"
+  email_address: "victor.schmit.vs@proton.me"
 };
 
 // Twitter Section
