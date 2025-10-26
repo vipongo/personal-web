@@ -14,6 +14,26 @@ export default function ProjectExperience() {
           <div className="experience-container" id="projectExperience">
             <div>
               <h1 className="experience-heading">Projects realized</h1>
+              <h2 className="experience-heading2">⭐Projects on Spotlight⭐</h2>
+              <div className="experience-cards-div">
+                {projectExperiences.spotlight.map((card, i) => {
+                  return (
+                    <ExperienceCard
+                      key={i}
+                      isDark={isDark}
+                      cardInfo={{
+                        company: card.company,
+                        desc: card.desc,
+                        date: card.date,
+                        companylogo: card.companylogo,
+                        role: card.role,
+                        descBullets: card.descBullets
+                      }}
+                    />
+                  );
+                })}
+              </div>
+              <h2 className="experience-heading2">Other Projects</h2>
               <div className="experience-cards-div">
                 {projectExperiences.experience.map((card, i) => {
                   return (

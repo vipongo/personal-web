@@ -302,7 +302,9 @@ const workExperiences = {
         "Creation and maintaining documentation and guidelines about security.",
         "Help the team create a 'culture' for security."
       ]
-    },
+    }
+  ],
+  relevantExperience: [
     {
       role: "Student Ambassador",
       company: "EIT Digital Master School",
@@ -347,14 +349,15 @@ const workExperiences = {
 
 const projectExperiences = {
   display: true, //Set it to true to show projectExperiences Section
-  experience: [
+
+  spotlight: [
     {
       role: "Security Consultant and Engineer for IEC 62443 Compliance",
       companylogo: require("./assets/images/compliance.jpg"),
       date: "March 2025 - Present",
       descBullets: [
-        "For a global manufacturer in the industrial and transport sector, the project aimed to ensure compliance of complex control systems with the IEC 62443 cybersecurity standard. The engagement covered the full lifecycle, from defining the security development framework to managing and validating technical and organizational controls through coordinated security testing.",
-        "<b>Tasks:</b> Managing and coordinating the execution of security tests and audits, aligning test planning with the IEC 62443-4-1 requirements, creating and maintaining the security validation documentation, and leading risk assessments and remediation tracking with development and system engineering teams. Ensuring proper traceability between requirements, tests, and compliance artifacts.",
+        "For a global manufacturer in the industrial and transport sector, the project aim to ensure compliance of complex control systems with the IEC 62443 cybersecurity standard. The engagement covers the full lifecycle, from defining the security development framework to managing and validating technical and organizational controls through coordinated security testing.",
+        "<b>Tasks:</b> Managing and coordinating the execution of security tests and audits, aligning test planning with the IEC 62443-4-1 requirements while leveraging NIST CSF principles to strengthen governance alignment, creating and maintaining the security validation documentation, and leading risk assessments and remediation tracking with development and system engineering teams. Ensuring proper traceability between requirements, tests, and compliance artifacts. Applying CIS controls as supporting evidence in test validation scripts",
         "<b>Methods and technologies:</b> IEC 62443-4-1, Threat Modeling (STRIDE), Security Test Management, Vulnerability Assessment, Secure SDLC, Python and PowerShell automation for validation tests, and Test Evidence Documentation (MKS)."
       ]
     },
@@ -363,17 +366,20 @@ const projectExperiences = {
       companylogo: require("./assets/images/access.jpg"),
       date: "July 2024 - February 2025",
       descBullets: [
-        "One of Hong Kong's largest non-profit organizations designs and builds a new IAM platform serving 3 million customers. This platform is critical to supporting 95% of the organization’s revenue through online betting, requiring exceptional reliability, performance, and security.",
-        "<b>Tasks:</b> Ensured the security aspect in key components of the solution. Creation of a threat model of the solution, supporting pentests and reviewing findings, code review, security hardening review of configurations, policies, processes. Collaborated with stakeholders to align security solutions with business needs.",
+        "One of Hong Kong's largest non-profit organizations designed and built a new IAM platform serving 3 million customers. This platform is critical to supporting 95% of the organization’s revenue through online betting, requiring exceptional reliability, performance, and security.",
+        "<b>Tasks:</b> Ensuring the security aspect in key components of the solution. Creation of a threat model of the solution, supporting pentests and reviewing findings, code review, security hardening review of configurations, policies, processes. Conducting comprehensive security posture assessment against the NIST CSF functions. Collaborating with stakeholders to align security solutions with business needs.",
         "<b>Methods and technologies:</b> ForgeRock IAM, Java Development, Kubernetes, Penetration Testing, Threat Model, Security Policies."
       ]
-    },
+    }
+  ],
+
+  experience: [
     {
       role: "Security Consultant and Engineer for AWS Cloud Infrastructure",
       companylogo: require("./assets/images/aws.jpg"),
       date: "May 2023 - May 2025",
       descBullets: [
-        "For a major Swiss company, the customer needs help building and maintaining their public cloud infrastructure to be able to have their IT services running sustainably and cost-efficiently. To be able to assist the customer, a complete review and update of the cloud infrastructure is necessary (policies, IAM, resources management, …).",
+        "For a major Swiss company, the customer needed help building and maintaining their public cloud infrastructure to be able to have their IT services running sustainably and cost-efficiently. To be able to assist the customer, a complete review and update of the cloud infrastructure was necessary (policies, IAM, resources management, …).",
         "<b>Tasks:</b> Identifying, managing, and mitigating security risks, coordination with the team, threat analysis.",
         "<b>Methods and technologies:</b> AWS, Policies, Regulations."
       ]
@@ -384,8 +390,8 @@ const projectExperiences = {
       date: "June 2023 - July 2023",
       descBullets: [
         "For a leading financial Swiss company, identifying vulnerabilities in their web applications (including DBMS), their STFP server and their AWS infrastructure.",
-        "<b>Tasks:</b> Make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
-        "<b>Methods and technologies:</b> Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, SSL/TLS Technologies, Azure, Blob storage."
+        "<b>Tasks:</b> Making a penetration test, finding vulnerabilities, exploiting them and gaining the highest level of privilege. At the end, a report, linking evidences with the NIST CSF, was provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
+        "<b>Methods and technologies:</b> Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, NIST CSF, SSL/TLS Technologies, Azure, Blob storage."
       ]
     },
     {
@@ -403,9 +409,9 @@ const projectExperiences = {
       companylogo: require("./assets/images/Azure.jpg"),
       date: "March 2023",
       descBullets: [
-        "For a leading company in AI and health, I performed a complete Security Assessment of the Azure infrastructure. The assessment encompassed several key tasks, starting with identifying potential security risks and vulnerabilities in the infrastructure. I coordinated various security-related activities, working closely with the development and operations teams to prioritize and mitigate these risks effectively.",
-        "Tasks: Identifying, managing, and mitigating security risks, coordination with the team; increase cloud security.",
-        "Methods and technologies: JWT, SSL/TLS Technologies, Azure, Blob storage, Docker, Well Architected Framework."
+        "For a leading company in AI and health, the project goal was to complete a security assessment of the Azure infrastructure. ",
+        "<b>Tasks:</b> The assessment encompassed several key tasks, starting with identifying potential security risks and vulnerabilities in the infrastructure. Cordination of various security-related activities, working closely with the development and operations teams to prioritize and mitigate these risks effectively. Increase cloud security.",
+        "<b>Methods and technologies:</b> JWT, SSL/TLS Technologies, Azure, Blob storage, Docker, Well Architected Framework."
       ]
     },
     {
@@ -413,8 +419,9 @@ const projectExperiences = {
       companylogo: require("./assets/images/softhsm.png"),
       date: "March 2023",
       descBullets: [
-        "For a worldwide company in Health, I achieved the creation of an API for secure and reliable communication between a software HSM (softHSM) and the different systems. The API was coded using C++ and multiple librairies that were customized for the specific needs. The API was tested and worked accordingly to the specifications.",
-        "Methods and technologies: OpenSSL, BOTAN 2, C++, Security/Risk Management, Podman."
+        "For a worldwide company in Health, creating an API for secure and reliable communication between a software HSM (softHSM) and the different systems. ",
+        "<b>Tasks:</b> Programing an API using C++ and multiple librairies that were customized for the specific needs. The API was tested and worked accordingly to the specifications.",
+        "<b>Methods and technologies:</b> OpenSSL, BOTAN 2, C++, Security/Risk Management, Podman."
       ]
     },
     {
@@ -422,8 +429,9 @@ const projectExperiences = {
       companylogo: require("./assets/images/pentest.jpg"),
       date: "February 2023",
       descBullets: [
-        "For a worldwide company, I was asked to identify vulnerabilities in their web application hosted on Azure. The task was to make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
-        "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, SSL/TLS Technologies, Azure, Blob storage."
+        "For a worldwide company, identifying vulnerabilities in their web application hosted on Azure.",
+        "<b>Tasks:</b> The task was to make a penetration test, find vulnerabilities, exploit them and gain the highest level of privilege. At the end, a report is provided with a final presentation to the team to explain the vulnerabilities and offer mitigations to avoid those risks.",
+        "<b>Methods and technologies:</b> Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE for the report), Docker, SQL Express, JWT, SSL/TLS Technologies, Azure, Blob storage."
       ]
     },
     {
@@ -431,9 +439,9 @@ const projectExperiences = {
       companylogo: require("./assets/images/audit.jpg"),
       date: "January 2023",
       descBullets: [
-        "For a leading company Swiss air-rescue company I am asked to make a security assessment of the infrastructure previously made and currently supported by the company. This infrastructure includes a web application (frontend and backend) and a cloud infrastructure. The audit focuses on all three major components. I focus on the authentication, powerful functions, possible injection points. For this purpose, Zühlke security team and software engineering team work together to be able to provide the highest level of quality to the software and to the security.",
-        "Tasks: Identifying, managing, and mitigating security risks; coordination of security related activities; increase cloud security.",
-        "Methods and technologies: Static analysis tools (SemGrep, Net analyzer), code review, authentication process, threat modeling, network traffic analyzer (BurpSuite, ZAP), .NET Core, Angular, SQL Express, Azure Active Directory, Azure DevOps."
+        "For a leading company Swiss air-rescue company. The project aimed to make a security assessment of the infrastructure previously made and currently supported by the company. This infrastructure included a web application (frontend and backend) and a cloud infrastructure. The audit focused on three major components (authentication, powerful functions and possible injection points). For this purpose, Zühlke security team and software engineering team worked together to be able to provide the highest level of quality to the software and to the security.",
+        "<b>Tasks:</b> Identifying, managing, and mitigating security risks; coordination of security related activities; increase cloud security.",
+        "<b>Methods and technologies:</b> Static analysis tools (SemGrep, Net analyzer), code review, authentication process, threat modeling, network traffic analyzer (BurpSuite, ZAP), .NET Core, Angular, SQL Express, Azure Active Directory, Azure DevOps."
         
       ]
     },
@@ -442,9 +450,9 @@ const projectExperiences = {
       companylogo: require("./assets/images/manager.jpg"),
       date: "December 2021 – December 2022",
       descBullets: [
-      "Introducing security in two web and one mobile application (Android) for a major telecommunication company. Those applications are a major part of the activity of this major telecommunication provider. They do provide in depth analysis over wireless mobile connectivity. The applications require permanent communications through secure channels to exchange important analysis, logs and monitoring. Encryption and decryption of those messages must be fast, reliable and secure. The applications required to create a performant licensing possibility for customers outside of the organization.",
-      "Tasks: Identifying, Managing, and mitigating security risks; Coordination of security related activities; creation and maintaining documentation and guidelines about security; help the team create a 'culture' for security; container security hardening.",
-      "Methods and technologies: Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE), Kubernetes, Hashicorp Vault, Keycloak, Docker, MongoDB, JWT, SSK/TLS Technologies."
+      "Introducing security in two web and one mobile application (Android) for a major telecommunication company. Those applications are an important part of the activity of this provider. They do provide in depth analysis over wireless mobile connectivity. The applications require permanent communications through secure channels to exchange important analysis, logs and monitoring. Encryption and decryption of those messages must be fast, reliable and secure. The applications require to create a performant licensing possibility for customers outside of the organization.",
+      "<b>Tasks:</b> Identifying, Managing, and mitigating security risks; Coordination of security related activities; creation and maintaining documentation and guidelines about security; help the team create a 'culture' for security; container security hardening.",
+      "<b>Methods and technologies:</b> Diverse Enumeration Tools (FUFF, Dirb, etc), Privilege Escalation, Network Traffic Analyzer (BurpSuite), Security/Risk Management, Threat Modeling (STRIDE), Kubernetes, Hashicorp Vault, Keycloak, Docker, MongoDB, JWT, SSK/TLS Technologies."
       ]
     },
     {
@@ -452,8 +460,9 @@ const projectExperiences = {
       companylogo: require("./assets/images/coach.jpg"),
       date: "October 2021",
       descBullets: [
-        "Coaching a big (30+) team of developers for a major telecommunication company on the different concept of cyber security inside a web application and the methodology to minimize security vulnerabilities in the code during the development phase.",
-        "Methodology: Training course at the facility, exercise to find vulnerabilities."
+        "Introducing security concepts to a team of developers for a major telecommunication company.",
+        "<b>Tasks:</b> Coaching a big (30+) team of developers on the different concept of cyber security inside a web application and the methodology to minimize security vulnerabilities in the code during the development phase.",
+        "<b>Methods and technologies:</b> Training course at the facility, exercise to find vulnerabilities."
       ]
     },
     {
@@ -462,7 +471,8 @@ const projectExperiences = {
       date: "June 2019 – August 2020",
       descBullets: [
         "Creation of a customized Google Scholar API for a University client. The API had to be made so it would connect with minimal amount of effort to the client's webserver so the client would be able to make request fast and efficiently.",
-        "Task: API creation in Python3. Understanding the previous Google Scholar API (Scholarly) and modifying it."
+        "<b>Tasks:</b> API creation in Python3. Understanding the previous Google Scholar API (Scholarly) and modifying it.",
+        "<b>Methods and technologies:</b> Python3, Google Scholar, Scholarly, API creation."
       ]
     }
   ]

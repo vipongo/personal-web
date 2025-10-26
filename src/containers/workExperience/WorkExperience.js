@@ -33,6 +33,26 @@ export default function WorkExperience() {
                   );
                 })}
               </div>
+              <h2 className="experience-heading2">Other Relevant Experiences</h2>
+              <div className="experience-cards-div">
+                {workExperiences.relevantExperience.map((card, i) => {
+                  return (
+                    <ExperienceCard
+                      key={i}
+                      isDark={isDark}
+                      cardInfo={{
+                        company: card.company,
+                        desc: card.desc,
+                        date: card.date,
+                        companylogo: card.companylogo,
+                        role: card.role,
+                        descNonBullet: card.descNonBullet,
+                        descBullets: card.descBullets
+                      }}
+                    />
+                  );
+                })}
+              </div>
             </div>
           </div>
         </Fade>
