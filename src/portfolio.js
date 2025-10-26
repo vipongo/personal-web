@@ -21,7 +21,7 @@ const illustration = {
 const greeting = {
   username: "Victor Schmit",
   title: "Hi all, I'm Victor Schmit",
-  subTitle: "A Cybersecurity professional with experience in security engineering, architecture, and risk management across cloud and enterprise environments.",
+  subTitle: "Cybersecurity professional with experience in security engineering, architecture, and risk management across cloud and enterprise environments.",
   resumeLink:
     "./assets/images/schmit_2025-11.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,7 +49,7 @@ const skillsSection = {
     "⚡ Implementing and assessing security controls in alignment with IEC 62443, NIST CSF, and CIS Benchmarks.",
     "⚡ Conducting and managing penetration tests, vulnerability assessments, and secure architecture reviews across cloud, web, and embedded systems.",
     "⚡ Driving security governance, from risk identification and mitigation to documentation, awareness, and fostering a strong security culture within development teams.",
-    "⚡ Continuously learning and experimenting with new cybersecurity tools, frameworks, and techniques to stay ahead of emerging threats"
+    "⚡ Continuously learning and experimenting with new cybersecurity tools, frameworks, and techniques to stay ahead of emerging threats."
   ],
 
   softwareSkills: [
@@ -143,8 +143,8 @@ const educationInfo = {
       schoolName: "Eötvös Loránd University",
       logo: require("./assets/images/eltelogo.png"),
       subHeader: "Master in Cyber Security",
-      duration: "September 2021 - May 2022",
-      desc: "Finished with mention 'Excellence'. I had 30 ECTS of business related courses.",
+      duration: "September 2021 - June 2022",
+      desc: "Graduated with excellence. Minor in business.",
       descBullets: [
         "Information Security Management",
         "Penetration Testing",
@@ -158,8 +158,8 @@ const educationInfo = {
       schoolName: "Turun Yliopisto University",
       logo: require("./assets/images/turku.png"),
       subHeader: "Master in Cyber Security",
-      duration: "September 2021 - May 2022",
-      desc: "Finished with mention 'Excellence'. I had 30 ECTS of business related courses.",
+      duration: "September 2021 - June 2022",
+      desc: "Minor in business.",
       descBullets: [
         "Security Engineering",
         "Firewall and IPS",
@@ -171,7 +171,7 @@ const educationInfo = {
       logo: require("./assets/images/madrid.png"),
       subHeader: "Summer School",
       duration: "July 2021",
-      desc: "Disrupting Finance with Digital Technologies",
+      desc: "Disrupting Finance with Digital Technologies.",
       descBullets: [
         "Business Planning",
         "Impact of ICT Technologies and Innovations",
@@ -183,8 +183,7 @@ const educationInfo = {
       schoolName: "UNamur University",
       logo: require("./assets/images/unamurlogo.png"),
       subHeader: "Bachelor in Computer Science",
-      duration: "September 2016 - August 2020",
-      desc: "With Business electives.",
+      duration: "September 2016 - June 2020",
       descBullets: [
         "Introduction to programming languages such as Python, C, Javascript",
         "Cyber Security classes",
@@ -279,8 +278,8 @@ const workExperiences = {
       descBullets: [
         "Performed CIAM Foundation review against NIST CSF & CIS Benchmarks; produced prioritized remediation plan.",
         "Executed API/web assessments (incl. OAuth/OIDC token flows) and documented issues with clear reproduction steps.",
-        "Advised on Entra ID Conditional Access, MFA hardening, PIM/role hygiene; reduced standing privileges",
-        "Coached teams on threat modeling (STRIDE) and SSDLC practices; facilitated security backlog triage"
+        "Advised on Entra ID Conditional Access, MFA hardening, PIM/role hygiene; reduced standing privileges.",
+        "Coached teams on threat modeling (STRIDE) and SSDLC practices; facilitated security backlog triage."
       ]
     },
     {
@@ -288,7 +287,7 @@ const workExperiences = {
       company: "Nokia",
       companylogo: require("./assets/images/nokia.png"),
       date: "December 2021 – December 2022",
-      desc: "Secure internal test automation frameworks and align them with corporate security standards.",
+      desc: "Secure internal test automation frameworks and align them with corporate security standards",
       descBullets: [
         "Defined security requirements and controls for three automation platforms: integrated security testing in CI/CD.",
         "Led internal security assessments and policy adoption initiatives with engineering teams.",
@@ -354,7 +353,7 @@ const projectExperiences = {
       descBullets: [
         "One of Hong Kong's largest non-profit organizations designs and builds a new IAM platform serving 3 million customers. This platform is critical to supporting 95% of the organization’s revenue through online betting, requiring exceptional reliability, performance, and security.",
         "Tasks: Ensured the security aspect in key components of the solution. Creation of a threat model of the solution, supporting pentests and reviewing findings, code review, security hardening review of configurations, policies, processes. Collaborated with stakeholders to align security solutions with business needs.",
-        "Methods and technologies: ForgeRock IAM, Java Development, Kubernetes, Penetration Testing, Threat Model, Security Policies"
+        "Methods and technologies: ForgeRock IAM, Java Development, Kubernetes, Penetration Testing, Threat Model, Security Policies."
       ]
     },
     {
@@ -365,7 +364,7 @@ const projectExperiences = {
       descBullets: [
         "For a major Swiss company, the customer needs help building and maintaining their public cloud infrastructure to be able to have their IT services running sustainably and cost-efficiently. To be able to assist the customer, a complete review and update of the cloud infrastructure is necessary (policies, IAM, resources management, …).",
         "Tasks: Identifying, managing, and mitigating security risks, coordination with the team, threat analysis.",
-        "Methods and technologies: AWS, Policies, Regulations"
+        "Methods and technologies: AWS, Policies, Regulations."
       ]
     },
     {
@@ -385,8 +384,8 @@ const projectExperiences = {
       desc: "Security Consulting GRC platform",
       descBullets: [
         "For a major Swiss company, I help maintaining the security of a GRC platform as well as performing testing on releases. I also help the company plan the secure approach on the platform and support them for security topics such as IAM.",
-        "Tasks: Identifying, managing, and mitigating security risks, coordination with the team, threat analysis",
-        "Methods and technologies: SSL/TLS Technologies, SAI360"
+        "Tasks: Identifying, managing, and mitigating security risks, coordination with the team, threat analysis.",
+        "Methods and technologies: SSL/TLS Technologies, SAI360."
       ]
     },
     {
@@ -449,8 +448,8 @@ const projectExperiences = {
       date: "October 2021",
       desc: "Training A Team",
       descBullets: [
-        "Coaching a big (30+) team of developers on the different concept of cyber security inside a web application and the methodology to minimize security vulnerabilities in the code during the development phase",
-        "Methodology: 6 hours training course at the facility, exercise to find vulnerabilities."
+        "Coaching a big (30+) team of developers for a major telecommunication company on the different concept of cyber security inside a web application and the methodology to minimize security vulnerabilities in the code during the development phase.",
+        "Methodology: Training course at the facility, exercise to find vulnerabilities."
       ]
     },
     {
@@ -499,7 +498,7 @@ const bigProjects = {
       image: require("./assets/images/unamurlogo.png"),
       projectName: "Bachelor's thesis 'CPDI'",
       projectDesc:
-        "Creation of a backend using Django to help developers find the best technologies for their project"
+        "Creation of a backend using Django to help developers find the best technologies for their project."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -611,7 +610,7 @@ const achievementSection = {
     },
     {
       title: "Advent of Cyber 2022",
-      subtitle: "Cyber Security challenges",
+      subtitle: "Cyber Security challenges.",
       image: require("./assets/images/tryhackme.png"),
       footerLink: [
         {
@@ -622,7 +621,7 @@ const achievementSection = {
     },
     {
       title: "Advent of Cyber 2021",
-      subtitle: "Cyber Security challenges",
+      subtitle: "Cyber Security challenges.",
       image: require("./assets/images/tryhackme.png"),
       footerLink: [
         {
@@ -676,7 +675,7 @@ const talkSection = {
     },
     {
       title:
-        "Continue to understand threat and learn through practice (Hack The Box, TryHackMe)"
+        "Continue to understand threat and learn through practice (Hack The Box, TryHackMe)."
     }
   ],
   display: true // Set false to hide this section, defaults to true
