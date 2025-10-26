@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./ProjectExperience.scss";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+import ExperienceCard from "../../components/experienceCard2/ExperienceCard";
 import {projectExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
