@@ -89,6 +89,14 @@ const skillsSection = {
       skillName: "DevSecOps",
       fontAwesomeClassname: "fa fa-cogs"
     },
+      {
+    skillName: "OpenCTI",
+    fontAwesomeClassname: "fa fa-network-wired"
+    },
+    {
+      skillName: "Threat Intelligence",
+      fontAwesomeClassname: "fa fa-skull-crossbones"
+    },
     {
       skillName: "Database Security",
       fontAwesomeClassname: "fas fa-database"
@@ -374,6 +382,16 @@ const projectExperiences = {
   ],
 
   experience: [
+    {
+  role: "PoC OpenCTI Platform",
+  companylogo: require("./assets/images/opencti.jpg"),
+  date: "October 2024",
+  descBullets: [
+    "As part of an internal cybersecurity initiative, setup and development of an OpenCTI-based platform to enhance vulnerability and technology exposure mapping. The objective was to centralize, correlate, and visualize threat intelligence data from multiple sources to support vulnerability management and incident response workflows.",
+    "<b>Tasks:</b> Designing and deploying the OpenCTI infrastructure using Docker Compose with multiple connectors (CVE, MITRE ATT&CK, MISP, and external vulnerability feeds). Developing and maintaining custom connectors to automate ingestion of threat and exposure data.",
+    "<b>Methods and technologies:</b> OpenCTI, Python, Docker Compose, Threat Intelligence Mapping."
+  ]
+    },
     {
       role: "Security Consultant and Engineer for AWS Cloud Infrastructure",
       companylogo: require("./assets/images/aws.jpg"),
