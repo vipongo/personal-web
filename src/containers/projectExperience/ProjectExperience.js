@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import "./ProjectExperience.scss";
 import ExperienceCard from "../../components/experienceCard2/ExperienceCard";
 import {projectExperiences} from "../../portfolio";
-import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function ProjectExperience() {
@@ -10,7 +9,6 @@ export default function ProjectExperience() {
   if (projectExperiences.display) {
     return (
       <div id="projectExperience">
-        <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="projectExperience">
             <div>
               <h1 className="experience-heading">Projects realized</h1>
@@ -54,7 +52,6 @@ export default function ProjectExperience() {
               </div>
             </div>
           </div>
-        </Fade>
       </div>
     );
   }
