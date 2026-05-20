@@ -557,14 +557,14 @@ const achievementSection = {
       ]
     },
     {
-      title: "ISC2 CISSP Associate",
+      title: "ISC2 CISSP",
       subtitle:
         "The vendor-neutral CISSP credential confirms technical knowledge and experience to design, engineer, implement, and manage the overall security posture of an organization.",
       image: require("./assets/images/cissp.webp"),
       footerLink: [
         {
           name: "Link to badge",
-          url: "https://www.credly.com/badges/0c07f08a-cf8b-407c-a251-64aa6c8563d8/public_url"
+          url: "https://www.credly.com/badges/c80c605f-1753-4b7e-a0a7-6e9469c20539/public_url"
         }
       ]
     },
