@@ -23,7 +23,7 @@ const greeting = {
   title: "Welcome, I'm Victor Schmit",
   subTitle: "Cybersecurity professional with experience in security engineering & architecture, and risk management across cloud and enterprise environments.",
   resumeLink:
-    "./assets/images/schmit_2025-11.pdf", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1CnsagFx8ZNRzLkQkcqo-ivu1q-dfaVTN/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
