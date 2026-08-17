@@ -507,7 +507,7 @@ const bigProjects = {
     "Hands-on security engineering projects and academic research demonstrating how I design, attack, validate, and harden real systems.",
   projects: [
     {
-      image: require("./assets/images/aisecurity.jpg"),
+      image: require("./assets/images/aisecurity.png"),
       projectName: "Agentic AI Security Lab",
       projectDesc:
         "Built a simulated banking agent with the OpenAI Agents SDK, Chroma RAG, persistent SQLite sessions, and external tools, then developed vulnerable and hardened iterations to test real AI-security failure modes. Reproduced and mitigated object/RAG authorization flaws, direct and indirect prompt injection, system-prompt extraction, cross-user session leakage, excessive agency, and transfer authorization issues. Added least-privilege tools, deterministic authorization, HITL approval, structured validation, rate limiting, audit logging, and automated pytest/Promptfoo red teaming; observed attack success fell from 40.35% to 9.52% across the configured adversarial suite.",
