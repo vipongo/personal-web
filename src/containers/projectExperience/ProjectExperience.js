@@ -11,8 +11,8 @@ export default function ProjectExperience() {
       <div id="projectExperience">
           <div className="experience-container" id="projectExperience">
             <div>
-              <h1 className="experience-heading">Projects realized</h1>
-              <h2 className="experience-heading2">⭐Projects on Spotlight⭐</h2>
+              <h1 className="experience-heading">Client & Consulting Projects</h1>
+              <h2 className="experience-heading2">Selected Engagements</h2>
               <div className="experience-cards-div">
                 {projectExperiences.spotlight.map((card, i) => {
                   return (
@@ -31,7 +31,7 @@ export default function ProjectExperience() {
                   );
                 })}
               </div>
-              <h2 className="experience-heading2">Other Projects</h2>
+              <h2 className="experience-heading2">Other Engagements</h2>
               <div className="experience-cards-div">
                 {projectExperiences.experience.map((card, i) => {
                   return (

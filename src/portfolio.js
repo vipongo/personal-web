@@ -21,9 +21,9 @@ const illustration = {
 const greeting = {
   username: "Victor Schmit",
   title: "Welcome, I'm Victor Schmit",
-  subTitle: "Cybersecurity professional with experience in security engineering & architecture, and risk management across cloud and enterprise environments.",
+  subTitle: "Cybersecurity engineer focused on securing AI-enabled, cloud, identity, and enterprise systems. Hands-on experience designing, attacking, and hardening agentic LLM applications alongside security architecture, IAM, application security, and security governance.",
   resumeLink:
-    "https://drive.google.com/file/d/1CnsagFx8ZNRzLkQkcqo-ivu1q-dfaVTN/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1GYjOrgUF2n917jzDIJltHZ9ZhtBMdkNH/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -33,106 +33,97 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/victorschmit/",
   gmail: "victor.schmit.vs@proton.me",
   //hackthebox: "https://app.hackthebox.com/profile/612703",
-  //github: "https://github.com/vipongo",
+  github: "https://github.com/vipongo",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Bridging cybersecurity engineering and governance to build secure, resilient, and compliant systems.",
+    "Building security into AI, applications, identity, cloud, and enterprise systems—from threat modeling and attack simulation to deterministic authorization and security validation.",
   skills: [
-    "⚡ Implementing and assessing security controls in alignment with IEC 62443, NIST CSF, and CIS Benchmarks.",
-    "⚡ Conducting and managing penetration tests, vulnerability assessments, and secure architecture reviews across cloud, web, and embedded systems.",
-    "⚡ Driving security governance, from risk identification and mitigation to documentation, awareness, and fostering a strong security culture throughout the organization.",
-    "⚡ Continuously learning and experimenting with new cybersecurity tools, frameworks, and techniques to stay ahead of emerging threats."
+    "⚡ Designing and threat-modeling agentic AI systems using RAG, tool invocation, persistent sessions, and human-in-the-loop workflows.",
+    "⚡ Red-teaming LLM applications for direct and indirect prompt injection, RAG poisoning, sensitive-data disclosure, system-prompt extraction, excessive agency, and broken authorization.",
+    "⚡ Engineering deterministic AI security controls including least-privilege tool access, object/action authorization, retrieval ACLs, structured validation, rate limiting, audit logging, and output controls.",
+    "⚡ Applying OWASP guidance for LLM and agentic applications, STRIDE, NIST CSF, CIS Benchmarks, and IEC 62443 across application, cloud, IAM, and embedded environments."
   ],
 
   softwareSkills: [
     {
+      skillName: "AI Security",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Agentic AI",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "LLM Red Teaming",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "RAG Security",
+      fontAwesomeClassname: "fas fa-search"
+    },
+    {
+      skillName: "OWASP LLM / Agentic",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    },
+    {
+      skillName: "Promptfoo / pytest",
+      fontAwesomeClassname: "fas fa-vial"
+    },
+    {
       skillName: "Threat Modeling",
-      fontAwesomeClassname: "fa fa-project-diagram"
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
-      skillName: "NIST CSF",
-      fontAwesomeClassname: "fa fa-shield-alt"
-    },
-    {
-      skillName: "CIS Benchmarks",
-      fontAwesomeClassname: "fa fa-shield-alt"
-    },
-    {
-      skillName: "IEC 62443",
-      fontAwesomeClassname: "fa fa-shield-alt"
-    },
-    {
-      skillName: "Risk Communication",
-      fontAwesomeClassname: "fa fa-file-alt"
-    },
-    {
-      skillName: "Cloud Security",
-      fontAwesomeClassname: "fa fa-cloud"
-    },
-    {
-      skillName: "Azure / Sentinel",
-      fontAwesomeClassname: "fa fa-microsoft"
+      skillName: "Application Security",
+      fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
       skillName: "CIAM & IAM",
-      fontAwesomeClassname: "fa fa-user-lock"
+      fontAwesomeClassname: "fas fa-user-lock"
+    },
+    {
+      skillName: "Cloud Security",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
       skillName: "DevSecOps",
-      fontAwesomeClassname: "fa fa-cogs"
-    },
-      {
-    skillName: "OpenCTI",
-    fontAwesomeClassname: "fa fa-network-wired"
-    },
-    {
-      skillName: "Threat Intelligence",
-      fontAwesomeClassname: "fa fa-skull-crossbones"
-    },
-    {
-      skillName: "Database Security",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Penetration Testing",
-      fontAwesomeClassname: "fa fa-user-secret"
-    },
-    {
-      skillName: "Report Writing",
-      fontAwesomeClassname: "fa fa-file-alt"
+      fontAwesomeClassname: "fas fa-cogs"
     },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Bash / PowerShell",
-      fontAwesomeClassname: "fa fa-terminal"
-    },
-    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
     },
     {
-      skillName: "React",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Azure / AWS",
+      fontAwesomeClassname: "fas fa-cloud-upload-alt"
     },
     {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "API Security",
+      fontAwesomeClassname: "fas fa-bug"
     },
+    {
+      skillName: "IEC 62443",
+      fontAwesomeClassname: "fas fa-industry"
+    },
+    {
+      skillName: "NIST CSF / CIS",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    }
   ],
   display: true
 };
@@ -212,35 +203,38 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Governance & Risk Management", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      Stack: "Security Architecture & Engineering",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Security Architecture & Engineering", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      Stack: "AI & Agentic Security",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Communication & Leadership", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Application Security & Red Teaming",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Security Operations & Testing", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "IAM & CIAM",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming & Automation", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Cloud & DevSecOps",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Cloud & DevSecOps", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      Stack: "Programming & Automation",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Governance & Risk Management",
+      progressPercentage: "85%"
     }
-    
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Your top 3 proficient Language experience
@@ -508,31 +502,51 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Theses",
-  subtitle: "",
+  title: "Selected Projects & Research",
+  subtitle:
+    "Hands-on security engineering projects and academic research demonstrating how I design, attack, validate, and harden real systems.",
   projects: [
+    {
+      image: require("./assets/images/aisecurity.jpg"),
+      projectName: "Agentic AI Security Lab",
+      projectDesc:
+        "Built a simulated banking agent with the OpenAI Agents SDK, Chroma RAG, persistent SQLite sessions, and external tools, then developed vulnerable and hardened iterations to test real AI-security failure modes. Reproduced and mitigated object/RAG authorization flaws, direct and indirect prompt injection, system-prompt extraction, cross-user session leakage, excessive agency, and transfer authorization issues. Added least-privilege tools, deterministic authorization, HITL approval, structured validation, rate limiting, audit logging, and automated pytest/Promptfoo red teaming; observed attack success fell from 40.35% to 9.52% across the configured adversarial suite.",
+      footerLink: [
+        {
+          name: "View source",
+          url: "https://github.com/vipongo/agentic-ai-security-lab"
+        },
+        {
+          name: "Threat model",
+          url: "https://github.com/vipongo/agentic-ai-security-lab/blob/main/docs/threat-model.md"
+        },
+        {
+          name: "Red-team reports",
+          url: "https://github.com/vipongo/agentic-ai-security-lab/tree/main/docs/report-prompfoo"
+        }
+      ]
+    },
     {
       image: require("./assets/images/double.png"),
       projectName:
-        "Master's thesis 'A Rapid Approach To Web Application Security'",
+        "Master's Thesis — A Rapid Approach to Web Application Security",
       projectDesc:
-        "Creation of a Master's thesis with Nokia to research the integration of security inside a completely unsecured web application.",
+        "Research conducted with Nokia on rapidly integrating security into an intentionally unsecured web application.",
       footerLink: [
         {
-          name: "Read my thesis work",
+          name: "Read thesis",
           url: "https://www.utupub.fi/handle/10024/154332"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/unamurlogo.png"),
-      projectName: "Bachelor's thesis 'CPDI'",
+      projectName: "Bachelor's Thesis — CPDI",
       projectDesc:
-        "Creation of a backend using Django to help developers find the best technologies for their project."
+        "Built a Django backend to help developers identify suitable technologies for software projects."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -709,7 +723,7 @@ const talkSection = {
         "Continue to understand threat and learn through practice (Hack The Box, TryHackMe)."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
